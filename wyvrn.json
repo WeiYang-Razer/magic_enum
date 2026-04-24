@@ -1,0 +1,22 @@
+{
+  "name": "magic_enum",
+  "version": "0.9.7.0",
+  "schemaVersion": 2,
+  "kind": "HeaderOnlyLib",
+  "description": "TODO: one-line description of magic_enum",
+  "dependencies": {},
+  "build": {
+    "system": "cmake",
+    "configs": [
+      "Debug",
+      "Release",
+      "RelWithDebInfo",
+      "MinSizeRel"
+    ],
+    "configure": [
+      "-DMAGIC_ENUM_OPT_BUILD_EXAMPLES=OFF",
+      "-DMAGIC_ENUM_OPT_BUILD_TESTS=OFF"
+    ],
+    "installDir": "install"
+  }
+}

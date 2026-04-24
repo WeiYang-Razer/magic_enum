@@ -54,3 +54,10 @@ _deps
 ### Bazel build artifacts ###
 /bazel-*
 /test/bazel-*
+
+# wyvrnpm-generated — do not commit
+/build/
+/wyvrn_internal/
+/wyvrn.lock
+/CMakePresets.json
+/CMakeUserPresets.json
